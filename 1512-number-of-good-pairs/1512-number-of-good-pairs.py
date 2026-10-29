@@ -1,4 +1,3 @@
-import numpy as np
 class Solution:
     def numIdenticalPairs(self, nums: list[int]) -> int:
         count=0
@@ -7,5 +6,3 @@ class Solution:
                 if(nums[i]==nums[j] and i<j):
                     count=count+1
         return count
-
-            
